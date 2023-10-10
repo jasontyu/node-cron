@@ -1,5 +1,3 @@
-import cron from 'node-cron';
+console.log("hello world");
 
-cron.schedule(`*/1 * * * *`, async () => {
-  console.log(`running your task...`);
-});
+process.exit()
